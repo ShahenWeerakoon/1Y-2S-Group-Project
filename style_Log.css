@@ -1,0 +1,81 @@
+
+/*LOGIN*/
+body
+{
+    background: url('Images/Class01.jpeg')no-repeat;
+    background-size: cover;
+}
+
+.log_home
+{
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+
+.log_home .log_home_button
+{
+    margin-top: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: end;
+    padding: 7px;
+    background-color: skyblue;
+    border-radius: 7px;
+    border: none;
+}
+
+.log_home .log_home_button:hover
+{
+    background-color: #205e95;
+}
+
+.log_home .log_home_button a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+
+.form_deg
+{
+    padding-top: 150px;
+}
+
+.label_deg
+{
+    display: inline-block;
+    color: skyblue;
+    width: 100px;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.login_form
+{
+    background-color: black;
+    width: 400px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.title_deg
+{
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.body_deg
+{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
